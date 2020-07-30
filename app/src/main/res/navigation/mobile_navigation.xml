@@ -22,4 +22,10 @@
         android:name="com.example.statusbarissueexample.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/my_flutter_fragment"
+        android:name="com.example.statusbarissueexample.ui.flutterFragment.MyFlutterFragment"
+        android:label="Flutter Fragment" />
+        />
 </navigation>

@@ -1,2 +1,9 @@
 rootProject.name='StatusBarIssueExample'
 include ':app'
+setBinding(new Binding([gradle: this]))
+evaluate(new File(
+  settingsDir,
+  'add_to_app/.android/include_flutter.groovy'
+))
+
+include ':add_to_app'
